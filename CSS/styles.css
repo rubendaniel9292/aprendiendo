@@ -5,15 +5,19 @@ html {
 
 /*MENU*/
 .nav {
-  background-color: #E8751A !important;
+  background-color: #e8751a !important;
   width: 100vw;
   z-index: 1030;
   height: 4.5rem;
 }
+.navbar .container-fluid {
+  background-color: #e8751a !important;
+  padding-bottom: 5px;
+}
 
 .nav-item:hover,
 li.active {
-  background-color: #6420AA;
+  background-color: #6420aa;
   transition: all 0.3s ease;
   border-radius: 0.5rem;
 }
@@ -65,7 +69,6 @@ li.active .nav-link {
 }
 
 .portada {
-  
 }
 .portada .img-p {
   margin-top: 6rem;
@@ -87,7 +90,7 @@ p {
 
 .des {
   font-size: 1.7rem;
-  color: #6420AA;
+  color: #6420aa;
 }
 
 .img-fluid {
@@ -141,7 +144,6 @@ p {
   width: 300px;
   height: 200px;
   perspective: 1000px;
-  /* Remove this if you don't want the 3D effect */
 }
 
 .flip-box-inner {
@@ -156,6 +158,14 @@ p {
 /* Do an horizontal flip when you move the mouse over the flip box container */
 .flip-box:hover .flip-box-inner {
   transform: rotateY(180deg);
+  box-shadow: -1px 0px 3px 6px rgba(0, 0, 0, 0.36);
+  -webkit-box-shadow: -1px 0px 3px 6px rgba(0, 0, 0, 0.36);
+  -moz-box-shadow: -1px 0px 3px 6px rgba(0, 0, 0, 0.36);
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
 }
 
 /* Position the front and back side */
@@ -172,7 +182,7 @@ p {
 
 /* Style the front side */
 .flip-box-front {
-  background-color: rgba(32, 115, 211, 0.884);
+  background-color: #6420aa;
   color: white;
 }
 
