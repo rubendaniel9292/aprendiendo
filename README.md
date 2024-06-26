@@ -9,7 +9,7 @@
 >[!IMPORTANT]
 >Sitio web de aprendizaje de idiomas gratuito
 
->[!WARNIG]
+>[!WARNING]
 >Sitio web de aprendizaje de idiomas gratuito
 
 >[!CAUTION]
