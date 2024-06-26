@@ -6,7 +6,7 @@
 >[!TIP]
 >Sitio web de aprendizaje de idiomas gratuito
 
->[!IMPORTAN]
+>[!IMPORTANT]
 >Sitio web de aprendizaje de idiomas gratuito
 
 >[!WARNIG]
