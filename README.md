@@ -1,3 +1,3 @@
 # aprendiendo
->[PUEBA]
+>[!NOTE]
 >Sitio web de aprendizaje de idiomas gratuito
